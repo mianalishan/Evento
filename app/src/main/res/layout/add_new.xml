@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="240dp"
+        android:layout_height="36dp"
+        android:layout_x="12dp"
+        android:layout_y="19dp"
+        android:text="ADD NEW EVENT"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="84dp"
+        android:ems="10"
+        android:hint="TITLE" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="164dp"
+        android:ems="10"
+        android:hint="TIME"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="252dp"
+        android:ems="10"
+        android:hint="date"
+        android:inputType="date|textAutoCorrect" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="350dp"
+        android:ems="10"
+        android:hint="ADDRESS"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="214dp"
+        android:layout_height="40dp"
+        android:layout_x="63dp"
+        android:layout_y="405dp"
+        android:background="@drawable/round_btn"
+        android:bottomLeftRadius="0dp"
+        android:bottomRightRadius="100dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="DONE"
+        android:textColor="#FFFFFF"
+        android:topLeftRadius="100dp"
+        android:topRightRadius="0dp" />
+
+</AbsoluteLayout>
